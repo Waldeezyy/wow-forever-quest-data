@@ -1,0 +1,1808 @@
+{
+  "schema_version": 1,
+  "guide_id": "forever/horde/undead/01-tirisfal-glades",
+  "source": {
+    "provider": "Polestar",
+    "version": "0.3.4",
+    "pack_format": 8,
+    "license": "GPL-3.0-only",
+    "source_guide_id": "forever/horde/undead/01-tirisfal-glades",
+    "guide_source_marker": "forever/horde/undead/01-tirisfal-glades.guide",
+    "original_file": "Polestar_Guides_Horde/Guides.lua",
+    "original_file_sha256": "72fd610540fdacca7c59ad58c8124dca56d792b0c4b52c966f29963ef7d93f3c",
+    "source_line_start": 19550,
+    "upstream_repository": "https://github.com/fitzforge/polestar",
+    "upstream_build_commit": null,
+    "frame_source_file": "Polestar_Guides/MapFrames.lua",
+    "frame_source_sha256": "96bd8dbf3a87af4f67ffc41f94bcdd53a38ed90895b5135cc8eb1f41b006472c",
+    "bundled_guide_sha256": "2ed4a96d69d4b4b9d229a9bf431cb4a2f19bc5547e87882262b8802170506498",
+    "bundled_frames_sha256": "66953c6459ffa18d3fb6fdb43a3682f7f78f1cc92face9f1fbde8c248cc73950",
+    "register_call_line": 19631
+  },
+  "source_stats": {
+    "steps": 66,
+    "goals": 247,
+    "quests": 79,
+    "goal_kinds": {
+      "accept": 80,
+      "buy": 3,
+      "collect": 40,
+      "complete": 6,
+      "getfp": 1,
+      "goto": 9,
+      "interact": 1,
+      "kill": 22,
+      "sethome": 1,
+      "talk": 4,
+      "train": 7,
+      "turnin": 72,
+      "use": 1
+    },
+    "location_statuses": {
+      "no_location": 10,
+      "resolved_era_reference": 237
+    },
+    "spawn_areas": 697,
+    "goals_with_character_or_flow_conditions": 138
+  },
+  "compiled_stats": {
+    "steps": 66,
+    "goals": 247,
+    "quests": 79,
+    "goal_kinds": {
+      "accept": 80,
+      "buy": 3,
+      "collect": 40,
+      "complete": 6,
+      "getfp": 1,
+      "goto": 9,
+      "interact": 1,
+      "kill": 22,
+      "sethome": 1,
+      "talk": 4,
+      "train": 7,
+      "turnin": 72,
+      "use": 1
+    },
+    "location_statuses": {
+      "no_location": 10,
+      "resolved_era_reference": 237
+    },
+    "spawn_areas": 697,
+    "goals_with_character_or_flow_conditions": 138
+  },
+  "validation": {
+    "errors": 0,
+    "warnings": 283,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[0].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[1].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[1].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[1].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[2].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[2].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[3].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[3].goals[1].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[3].goals[2].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[3].goals[3].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[3].goals[4].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[3].goals[5].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[3].goals[6].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[3].goals[7].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[3].goals[8].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[3].goals[9].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[3].goals[10].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[3].goals[11].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[3].goals[12].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[3].goals[13].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[3].goals[14].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unmapped_map",
+        "path": "$.steps[3].goals[15].location",
+        "message": "No mapped map_id/ui_map_id; source zone text is preserved."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[3].goals[15].location.x",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[3].goals[15].location.y",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[3].goals[15].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[3].goals[16].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[4].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unmapped_map",
+        "path": "$.steps[4].goals[1].location",
+        "message": "No mapped map_id/ui_map_id; source zone text is preserved."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[4].goals[1].location.x",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[4].goals[1].location.y",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[4].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[5].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[5].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[6].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[6].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[7].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[7].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[7].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[7].goals[3].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[7].goals[4].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[7].goals[5].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[7].goals[6].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[7].goals[7].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unmapped_map",
+        "path": "$.steps[7].goals[8].location",
+        "message": "No mapped map_id/ui_map_id; source zone text is preserved."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[7].goals[8].location.x",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[7].goals[8].location.y",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[7].goals[8].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[7].goals[9].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[7].goals[10].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[8].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[9].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[10].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[11].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[11].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[11].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[11].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[12].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[12].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[12].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[12].goals[3].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[13].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[13].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[14].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[15].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[15].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[15].goals[2].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[16].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[17].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[17].goals[1].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[17].goals[2].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[18].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[19].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[19].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[20].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[20].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[20].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[20].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[20].goals[4].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[20].goals[5].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[20].goals[6].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[21].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unmapped_map",
+        "path": "$.steps[21].goals[1].location",
+        "message": "No mapped map_id/ui_map_id; source zone text is preserved."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[21].goals[1].location.x",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[21].goals[1].location.y",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[21].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[22].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[22].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[22].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[22].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[22].goals[4].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[23].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[24].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[24].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[24].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[24].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "external_prerequisite_unverified",
+        "path": "$.steps[24].goals[4].prerequisites.any[0]",
+        "message": "Prerequisite is outside this guide and no quest catalog was supplied; may be legitimate external content.",
+        "details": {
+          "quest_id": 95998
+        }
+      },
+      {
+        "severity": "warning",
+        "code": "external_prerequisite_unverified",
+        "path": "$.steps[24].goals[4].prerequisites.any[1]",
+        "message": "Prerequisite is outside this guide and no quest catalog was supplied; may be legitimate external content.",
+        "details": {
+          "quest_id": 96101
+        }
+      },
+      {
+        "severity": "warning",
+        "code": "external_prerequisite_unverified",
+        "path": "$.steps[24].goals[4].prerequisites.any[2]",
+        "message": "Prerequisite is outside this guide and no quest catalog was supplied; may be legitimate external content.",
+        "details": {
+          "quest_id": 96604
+        }
+      },
+      {
+        "severity": "warning",
+        "code": "external_prerequisite_unverified",
+        "path": "$.steps[24].goals[4].prerequisites.any[3]",
+        "message": "Prerequisite is outside this guide and no quest catalog was supplied; may be legitimate external content.",
+        "details": {
+          "quest_id": 96605
+        }
+      },
+      {
+        "severity": "warning",
+        "code": "external_prerequisite_unverified",
+        "path": "$.steps[24].goals[4].prerequisites.any[4]",
+        "message": "Prerequisite is outside this guide and no quest catalog was supplied; may be legitimate external content.",
+        "details": {
+          "quest_id": 96606
+        }
+      },
+      {
+        "severity": "warning",
+        "code": "external_prerequisite_unverified",
+        "path": "$.steps[24].goals[4].prerequisites.any[6]",
+        "message": "Prerequisite is outside this guide and no quest catalog was supplied; may be legitimate external content.",
+        "details": {
+          "quest_id": 96608
+        }
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[24].goals[4].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[24].goals[5].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[25].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[25].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[26].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[27].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[27].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[28].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[28].goals[1].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[28].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[28].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[29].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[29].goals[1].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[29].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[29].goals[3].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[29].goals[4].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[29].goals[5].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[29].goals[6].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[29].goals[7].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unmapped_map",
+        "path": "$.steps[29].goals[8].location",
+        "message": "No mapped map_id/ui_map_id; source zone text is preserved."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[29].goals[8].location.x",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[29].goals[8].location.y",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[29].goals[8].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[30].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[30].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[30].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[30].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[30].goals[4].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[30].goals[5].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[30].goals[6].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[30].goals[7].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[31].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[31].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[31].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[31].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[31].goals[4].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[31].goals[5].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[31].goals[6].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[32].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[32].goals[1].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[32].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[32].goals[3].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unmapped_map",
+        "path": "$.steps[32].goals[4].location",
+        "message": "No mapped map_id/ui_map_id; source zone text is preserved."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[32].goals[4].location.x",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[32].goals[4].location.y",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[32].goals[4].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[32].goals[5].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[32].goals[6].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[32].goals[7].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[32].goals[8].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[32].goals[9].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[32].goals[10].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[32].goals[11].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[33].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[33].goals[1].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[33].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[33].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[33].goals[4].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[34].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[34].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[35].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[35].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[35].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[35].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[35].goals[4].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[35].goals[5].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[35].goals[6].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unmapped_map",
+        "path": "$.steps[35].goals[7].location",
+        "message": "No mapped map_id/ui_map_id; source zone text is preserved."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[35].goals[7].location.x",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[35].goals[7].location.y",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[35].goals[7].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[36].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[37].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[37].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[37].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unmapped_map",
+        "path": "$.steps[37].goals[3].location",
+        "message": "No mapped map_id/ui_map_id; source zone text is preserved."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[37].goals[3].location.x",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[37].goals[3].location.y",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[37].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[38].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[39].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[39].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[39].goals[2].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[39].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[39].goals[4].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[39].goals[5].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unmapped_map",
+        "path": "$.steps[39].goals[6].location",
+        "message": "No mapped map_id/ui_map_id; source zone text is preserved."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[39].goals[6].location.x",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[39].goals[6].location.y",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[39].goals[6].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[39].goals[7].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[39].goals[8].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[39].goals[9].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[39].goals[10].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[39].goals[11].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[39].goals[12].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[39].goals[13].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[40].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[40].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[40].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[41].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[42].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[42].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[43].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[44].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[44].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[44].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[44].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[45].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[46].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[46].goals[1].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[46].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[47].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[47].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[47].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[48].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[48].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[48].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[48].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[49].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[49].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[50].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[50].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[50].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[50].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[50].goals[4].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[51].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[52].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[52].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[52].goals[2].prerequisites.any",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[52].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[52].goals[4].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[53].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[53].goals[1].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[53].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unmapped_map",
+        "path": "$.steps[53].goals[3].location",
+        "message": "No mapped map_id/ui_map_id; source zone text is preserved."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[53].goals[3].location.x",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "missing_coordinate",
+        "path": "$.steps[53].goals[3].location.y",
+        "message": "Coordinate is unknown."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[53].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[53].goals[4].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[53].goals[5].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[54].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[54].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[54].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[54].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[54].goals[4].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[55].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[55].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[56].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[56].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[57].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[57].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[57].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[57].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[58].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[58].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[59].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[59].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[59].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[59].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[59].goals[4].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[59].goals[5].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[60].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisite_list",
+        "path": "$.steps[60].goals[1].prerequisites.all",
+        "message": "List absent/unknown; no assumptions about conjunction made."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[60].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[60].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[60].goals[4].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[60].goals[5].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[60].goals[6].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[60].goals[7].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[61].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[62].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[63].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[64].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[65].goals[0].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[65].goals[1].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[65].goals[2].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[65].goals[3].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[65].goals[4].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[65].goals[5].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[65].goals[6].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      },
+      {
+        "severity": "warning",
+        "code": "unknown_prerequisites",
+        "path": "$.steps[65].goals[7].prerequisites",
+        "message": "Prerequisites were not supplied; no empty AND/OR lists inferred."
+      }
+    ]
+  },
+  "overrides": {
+    "excluded_quest_ids": [],
+    "replacement_ids": [],
+    "removed_goals": [],
+    "inserted_steps": [],
+    "dependent_warnings": [],
+    "issues": [],
+    "replacement_notes": {},
+    "replacement_goals_added": 0,
+    "dependency_analysis_scope": "explicit prerequisites.any/all only; opaque conditions/raw are preserved, not interpreted"
+  },
+  "execution_validation": "not performed; this repository compiles data only"
+}

@@ -1,0 +1,17 @@
+{
+  "provider": "Polestar",
+  "version": "0.3.4",
+  "pack_format": 8,
+  "license": "GPL-3.0-only",
+  "source_guide_id": "forever/horde/undead/01-tirisfal-glades",
+  "guide_source_marker": "forever/horde/undead/01-tirisfal-glades.guide",
+  "original_file": "Polestar_Guides_Horde/Guides.lua",
+  "original_file_sha256": "72fd610540fdacca7c59ad58c8124dca56d792b0c4b52c966f29963ef7d93f3c",
+  "source_line_start": 19550,
+  "upstream_repository": "https://github.com/fitzforge/polestar",
+  "upstream_build_commit": null,
+  "frame_source_file": "Polestar_Guides/MapFrames.lua",
+  "frame_source_sha256": "96bd8dbf3a87af4f67ffc41f94bcdd53a38ed90895b5135cc8eb1f41b006472c",
+  "bundled_guide_sha256": "2ed4a96d69d4b4b9d229a9bf431cb4a2f19bc5547e87882262b8802170506498",
+  "bundled_frames_sha256": "66953c6459ffa18d3fb6fdb43a3682f7f78f1cc92face9f1fbde8c248cc73950"
+}

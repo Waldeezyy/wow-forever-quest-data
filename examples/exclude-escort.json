@@ -1,0 +1,7 @@
+{
+  "exclude_quest_ids": [99144],
+  "replacement_notes": {
+    "99144": "Example only: omit the escort if the executor cannot handle it. Review remaining travel and dependent quests."
+  },
+  "replacements": []
+}

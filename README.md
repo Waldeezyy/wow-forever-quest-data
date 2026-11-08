@@ -100,6 +100,7 @@ guide {
           index,
           source_goal_index,
           kind,
+          title,
           quest_id,
           objective_index?,
           npc_id,
@@ -126,7 +127,7 @@ guide {
 | `index` | **1-based sequential display order** in the final edited array. Step indices are guide-local; goal indices are step-local. They are reassigned after overrides. |
 | `source_step_index` | Original source step identity, preserved across exclusions/reordering of display indices. Used by replacement anchors. |
 | `source_goal_index` | Original goal identity within its source step. Preserved even when neighboring goals are removed. |
-| `title` | Source/user-authored step title. |
+| `title` | Source/user-authored step or goal title. |
 | `conditions` | Opaque condition data preserved for a future consumer. The compiler does not run the expressions or decide whether they hold. |
 | `kind` | Normalized action/goal kind, such as accepting a quest, doing an objective, turning in a quest or traveling. Inspect `raw` for source-specific detail. |
 | `quest_id` | The quest directly addressed by this goal, when explicitly known. It is the field used by exclusions. |
@@ -145,6 +146,8 @@ Original goals are identified by guide ID + source step/goal indices. Inserted g
 The same quest can legitimately occur in accept, objective and turn-in goals. Repeated quest IDs do not make those goals duplicates. Use guide/step/goal identity to address a record, not quest ID alone.
 
 Unknown, absent and empty values matter. Missing/null prerequisites are not proof of no requirements, and a coordinate or entity reference absent from the source is not filled with a nearby guess. An empty prerequisite list describes the explicit data available in that list; it does not establish full server-side availability.
+
+Source `pre` maps to `prerequisites.any`, and `preAll` maps to `prerequisites.all`. If only one is supplied, the other stays null. A goal with neither field has `prerequisites: null`.
 
 ### Data the consumer still needs
 
@@ -277,6 +280,8 @@ That demonstration produces 67 display steps. The inserted step has display inde
 ## Validation and reports
 
 Validation checks data shape, IDs, indices, finite/ranged coordinates where units are known, and explicit prerequisite references. It reports unknown/unmapped information rather than filling it. A supplied audited facts catalog can support existence checks; without one, an external quest reference is not proof that the quest does not exist.
+
+Inspect each goal and spawn area's `location.status`, `reason`, `warnings` and `live_verified` directly as well. Frame-resolution warnings such as `unresolved_live_frame` are recorded on the location; they are not automatically promoted into `report.validation.issues`. The validator checks goal map/XY/units, not current terrain or the completeness of spawn areas and opaque flow conditions.
 
 An override report includes:
 
